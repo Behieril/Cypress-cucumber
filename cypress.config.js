@@ -17,6 +17,8 @@ module.exports = defineConfig({
 
       return config;
     },
+    defaultCommandTimeout: 100000,
+    video: false,
     specPattern: "cypress/e2e/features/*.feature",
     baseUrl: "https://www.google.com",
   },
