@@ -7,7 +7,6 @@ jobs:
     name: E2E on Chrome
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node_version}}
       - uses: cypress-io/github-action@v4
         with:
           browser: electron
