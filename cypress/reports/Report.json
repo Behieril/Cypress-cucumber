@@ -1,0 +1,945 @@
+[
+  {
+    "description": "    Feature Registration process should be work fine",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the main page",
+            "result": {
+              "duration": 5149000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "registration-test-without-captha;success-registration-from-main-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Success registration from main page",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user enters the email \"roman.bobokov@gmail.com\" and clicks on try free button then enter correct credentials",
+            "result": {
+              "duration": 40284000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Registration must be finished",
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the main page",
+            "result": {
+              "duration": 7110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "registration-test-without-captha;success-registration",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Success registration",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "A user click on SignUp and enter correct credentials",
+            "result": {
+              "duration": 41319000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Registration must be finished",
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-test-without-captha",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Registration test without CAPTHA",
+    "uri": "cypress\\e2e\\features\\1RegistrationPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User go to the careers page",
+            "result": {
+              "duration": 9632000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "carrers-page-links-test;carrers-links-test",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Carrers links test",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User scroll into comentary section and click on it",
+            "result": {
+              "duration": 2373000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Arrows must be visible and clicable",
+            "result": {
+              "duration": 885000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "carrers-page-links-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Carrers page links test",
+    "uri": "cypress\\e2e\\features\\Careers.feature"
+  },
+  {
+    "description": "    Feature Forgot password page will work properly.",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the forgot password page",
+            "result": {
+              "duration": 15634000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "forgot-password-page;success-reset-of-the-password",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Success reset of the password",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user enters the email \"roman.bobokov@gmail.com\" and clicks on the resrt password button",
+            "result": {
+              "duration": 1613000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "The message 'We have accepted your password reset request. If you have a Telnyx account and are unable to reset your password successfully, please contact support for assistance.' should be visible",
+            "result": {
+              "duration": 807000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "forgot-password-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Forgot password page",
+    "uri": "cypress\\e2e\\features\\ForgotPassord.feature"
+  },
+  {
+    "description": "    Feature Login page will work depending on the user credentials.",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the login page",
+            "result": {
+              "duration": 19989000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login-page;success-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Success Login",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user enters the email \"roman.bobokov@gmail.com\", the password \"rp%-afu#2-9GmgE\", and clicks on the login button",
+            "result": {
+              "duration": 2757000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the URL will be on main page",
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the login page",
+            "result": {
+              "duration": 8973000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login-page;incorrect-username-login",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Incorrect Username Login",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "A user provides incorrect credentials, and clicks on the login button",
+            "result": {
+              "duration": 2231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "testName@gmail.com",
+                  "rp%-afu#2-9GmgE"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The error message 'That email and password combination is not valid, or your browser could not be authenticated via recaptcha. Please try again.' should be visible",
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A web browser is at the login page",
+            "result": {
+              "duration": 8942000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "login-page;incorrect-password-login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Incorrect Password Login",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 16,
+            "name": "A user provides incorrect credentials, and clicks on the login button",
+            "result": {
+              "duration": 2413000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "roman.bobokov@gmail.com",
+                  "testPassword"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The error message 'That email and password combination is not valid, or your browser could not be authenticated via recaptcha. Please try again.' should be visible",
+            "result": {
+              "duration": 3498000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login page",
+    "uri": "cypress\\e2e\\features\\LoginTest.feature"
+  },
+  {
+    "description": "    Feature Main page content must works correctly",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is located in main page",
+            "result": {
+              "duration": 3375000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "main-page-test;test-of-main-page-links-in-footer",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Test of main page links in footer",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "User clicks on any links in footer",
+            "result": {
+              "duration": 125494000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "All links works correctly and user is located on last clicked link",
+            "result": {
+              "duration": 9345000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is located in main page",
+            "result": {
+              "duration": 4241000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "main-page-test;'powerfull-product'-section-test",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "'Powerfull product' section test",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "User clicks on link in 'Powerfull product' section",
+            "result": {
+              "duration": 74355000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "All links works corretly and user is located on main page",
+            "result": {
+              "duration": 815000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is located in main page",
+            "result": {
+              "duration": 4002000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "main-page-test;side-panel-test",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Side panel test",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 14,
+            "name": "User clicks on side panel and click on links",
+            "result": {
+              "duration": 9335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 15,
+            "name": "All links works corretly and side panel is visible with all links",
+            "result": {
+              "duration": 162000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "main-page-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Main page test",
+    "uri": "cypress\\e2e\\features\\MainPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 2,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User is located in Network page",
+            "result": {
+              "duration": 3515000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "network-page-test;network-page-content",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Network page content",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "User is located in Network page and check content",
+            "result": {
+              "duration": 2879000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "All content must be visible and user must go to Pricing page",
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "network-page-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Network page test",
+    "uri": "cypress\\e2e\\features\\Network.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User go to the storage page",
+            "result": {
+              "duration": 2734000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "storage-page-test;profile-tabs-visibility",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Profile tabs visibility",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User scrolls to Frequently Asked Questions about Telnyx Storage",
+            "result": {
+              "duration": 7092000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "All span should work properly",
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "storage-page-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Storage page test",
+    "uri": "cypress\\e2e\\features\\Storage.feature"
+  },
+  {
+    "description": "    Feature Support center test ",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on main page",
+            "result": {
+              "duration": 4667000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "support-center-test;support-center-link-test",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Support center link test",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "User clicks on Support Center link on main page",
+            "result": {
+              "duration": 1745000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User should be in 'Getting Started' page",
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on main page",
+            "result": {
+              "duration": 1255000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "support-center-test;success-registration-from-main-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Success registration from main page",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "User type in search field 'Type' and click on first result",
+            "result": {
+              "duration": 2746000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User must be in first result page",
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "support-center-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Support center test",
+    "uri": "cypress\\e2e\\features\\SupportCentre.feature"
+  },
+  {
+    "description": "    Feature Resend verification mail",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User should be on verification page",
+            "result": {
+              "duration": 13891000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "resend-verification;user-must-take-verification-mail",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User must take verification mail",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "User input their email",
+            "result": {
+              "duration": 1347000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User must see notification",
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "resend-verification",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Resend verification",
+    "uri": "cypress\\e2e\\features\\VerificationTest.feature"
+  }
+]
