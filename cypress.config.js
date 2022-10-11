@@ -10,7 +10,6 @@ module.exports = defineConfig({
     async setupNodeEvents(on, config) {
       const bundler = createBundler({
         plugins: [createEsbuildPlugin(config)],
-        defaultCommandTimeout: 10000
       });
 
       on("file:preprocessor", bundler);
@@ -18,7 +17,9 @@ module.exports = defineConfig({
 
       return config;
     },
+    defaultCommandTimeout: 100000,
     waitForAnimations: true,  
+    video: false,
     specPattern: "cypress/e2e/features/*.feature",
     baseUrl: "https://www.google.com",
   },
