@@ -1,5 +1,7 @@
 # Cypress-cucumber-task
-There is 15 test cases in Cypress + Cucumber framework
+There is 15 test cases in Cypress + Cucumber framework.
+
+Description file of all test in "Describe of 15 test cases"
 
 ## Installation
 First of all, if you want to run code you need to download code editor.
